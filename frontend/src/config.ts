@@ -1,0 +1,1 @@
+export const BACKEND_URL = "https://blogit.hemant-kr-711.workers.dev";
