@@ -35,7 +35,7 @@ const Card: React.FC<CardProps> = ({ pages, activePage, onPageChange }) => {
 
 export function CircularPagination({ totalBlogs, totalPages, currentPage, onPageChange }: CircularPaginationProps) {
   const [active, setActive] = useState(currentPage);
-
+  console.log("Total Blogs :",totalBlogs);
   useEffect(() => {
     setActive(currentPage);
   }, [currentPage]);
