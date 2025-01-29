@@ -10,7 +10,7 @@ interface PublishButtonProps {
 export const PublishButton: React.FC<PublishButtonProps> = ({ onClick, type }) => {
   return (
     <StyledWrapper>
-      <button onClick={onClick}>
+      <button className='my-10' onClick={onClick}>
         {type}
       </button>
     </StyledWrapper>

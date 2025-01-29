@@ -6,12 +6,12 @@ export const FullBlogCard = ({blog} : {blog : Blog}) => {
   return (
     <div>
         <div className="flex justify-center">
-            <div className="grid grid-cols-12 px-10 w-full pt-12 max-w-screen-xl">
+            <div className="grid md:grid-cols-12 grid-cols-1 px-10 w-full pt-12 max-w-screen-xl">
                 <div className="col-span-8">
-                    <div className="text-5xl font-extrabold font-roboto">
+                    <div className="md:text-5xl text-4xl font-extrabold font-roboto">
                         {blog.title}
                     </div>
-                    <div className="text-slate-500 text-xl pt-6">
+                    <div className="text-slate-500 md:text-xl text-lg pt-6">
                         Posted on {formatDate(blog.createdAt)}
                     </div>
                     <div className="font-roboto pt-4">
@@ -19,7 +19,7 @@ export const FullBlogCard = ({blog} : {blog : Blog}) => {
                     </div>
 
                 </div>
-                <div className="pl-10 text-lg col-span-4">
+                <div className="pl-10 md:mt-1 mt-4 text-lg col-span-4">
                     Author
                     <div className="flex justify-center items-center">
                         <div>

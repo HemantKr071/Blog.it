@@ -31,7 +31,7 @@ export const BlogCard = ({id,authorname,title,content,publishedDate,showEditDele
   return (
     <>
    
-            <div className=" border-b-2 border-slate-200 p-4 pb-4 w-full mb-5 cursor-pointer shadow-lg rounded-xl scroll-smooth  transform transition-all hover:scale-105 hover:shadow-slate-400 hover:duration-300">
+            <div className=" border-b-2 border-slate-200 md:p-4 p-6 pb-4 w-full mb-5 cursor-pointer shadow-lg rounded-xl scroll-smooth  transform transition-all hover:scale-105 hover:shadow-slate-400 hover:duration-300">
                     <div>
                     <Link to={`/blog/${id}`}>
                         <div className=" flex gap-2 items-center">

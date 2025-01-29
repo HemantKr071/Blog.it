@@ -115,7 +115,7 @@ export const Publish = () => {
       <AppBar />
       <div className="mx-auto mt-8 flex flex-col gap-20 justify-center items-center">
       <textarea
-          className="py-3 font-libre  px-4 text-xl block w-3/4 bg-slate-100 border border-slate-200 rounded-lg focus:border-blue-500 focus:ring-blue-500"
+          className="py-3 font-libre  px-4 md:text-xl text-sm block w-3/4 bg-slate-100 border border-slate-200 rounded-lg focus:border-blue-500 focus:ring-blue-500"
           placeholder="Title : Write the Name of the Topic You Want to Talk About..."
           value={title}
           onChange={handleTitleChange}
@@ -128,7 +128,7 @@ export const Publish = () => {
           value={content}
           onChange={handleContentChange}
           placeholder="Write your Blog ..."
-          className="h-[25rem] w-[80%]"
+          className="h-[25rem] w-[80%] md:my-4 my-5"
         />
 
         {error && <div className="text-red-500">{error}</div>}
