@@ -14,7 +14,9 @@
     "@heroicons/react": "^2.2.0",
     "@material-tailwind/react": "^2.1.10",
     "axios": "^1.7.9",
+    "clsx": "^2.1.1",
     "html-to-text": "^9.0.5",
+    "motion": "^12.4.2",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-html-parser": "^2.0.2",
@@ -26,6 +28,7 @@
   "devDependencies": {
     "@eslint/js": "^9.17.0",
     "@types/html-to-text": "^9.0.4",
+    "@types/node": "^22.13.1",
     "@types/react": "^18.3.18",
     "@types/react-dom": "^18.3.5",
     "@types/react-html-parser": "^2.0.6",

@@ -17,7 +17,9 @@ export const Hero = () => {
     <div className="flex flex-col gap-7 mt-48 items-center justify-center max-w-3xl">
         <div className="bg-black text-sm flex justify-center items-center text-white p-4 w-40 h-5 border rounded-l-2xl rounded-r-2xl">
             Welcome to Blog it.
+
         </div>
+       
         <div className="md:text-6xl text-4xl whitespace-nowrap font-bold">
             Write. Share. Inspire
         </div>
@@ -27,6 +29,7 @@ export const Hero = () => {
         <button onClick={handleClick} className="bg-black w-36 h-11 text-white text-sm flex justify-center items-center p-5 border rounded-md hover:shadow-lg hover:shadow-slate-500">
             Start Writing
         </button>
+       
 
     </div>
   )

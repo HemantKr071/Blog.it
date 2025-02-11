@@ -109,8 +109,11 @@ export const Auth = ({type}: {type : "signup" | "signin"}) => {
             />
             <Button onClick={handleClick} type={type === 'signin'? 'Sign In' : 'Sign Up'} />
           </div> 
+    
         </div>
+  
       </div>
+
     </div>
   );
 };
