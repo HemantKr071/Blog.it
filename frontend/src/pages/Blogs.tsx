@@ -18,8 +18,10 @@ export const Blogs = () => {
 
   return (
     <div>
+        
         <AppBar/>
         <div className='flex justify-center w-full items-center min-h-screen'>
+           
            {loading ? (
                 <div className='flex flex-col justify-center items-center w-full max-w-4xl'>
                 <BlogCardSkeleton />
